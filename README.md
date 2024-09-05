@@ -191,7 +191,7 @@ You may prefer to build then push images to your own Docker registry.
 
 ### Choose your Docker registry
 
-You need to define your target Docker registry.
+You will need to define your target Docker registry.
 Make sure you're already logged in by running `docker login <endpoint>` or `docker login` if you're just targeting Docker hub.
 
 Setup the `REPOSITORY_PREFIX` env variable to target your Docker registry.
